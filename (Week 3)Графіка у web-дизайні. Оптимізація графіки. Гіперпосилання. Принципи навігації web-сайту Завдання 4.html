@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background{
+            background-color: rgb(39, 79, 153);
+            height: 200px;
+            width: 800px;
+            padding: 20px;
+        }
+        .a{
+            padding-left: 70px;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            vertical-align: top;
+        }
+        li:hover{
+            text-decoration: underline;
+            cursor: pointer;
+
+        }
+        .img{
+            display: inline-block;
+            margin-right: 25px;
+            margin-top: 45px;
+            background-size: 35px;
+        }
+        .facebook {
+                background-image: url('./images/fb.png');
+                margin-right: 25px;
+                margin-top: 45px;
+                background-image: url(./images/fb.png);
+                background-size: cover;
+                transition: background-image 0.3s ease;
+        }
+        .facebook:hover {
+                background-image: url(./images/fb.png);
+                cursor: pointer;
+                
+        }
+        li{
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <ul type="none" class="a">
+            <li>Home</li>
+            <li>About</li>
+            <li>Gallery</li>
+            <li>News</li>
+        </ul>
+        <ul type="none" class="a" style="padding-left: 160px;">
+            <li>Blog</li>
+            <li>FAQ</li>
+            <li>Contacts</li>
+            <li>Privacy & cookies</li>
+        </ul>
+        <img src="./images/fb_gray.png" alt="" width="35" class="facebook" style="margin-left: 90px;">
+        <img src="./images/insta_gray.png" alt="" width="35" class="img">
+        <img src="./images/youtube_gray.png" alt="" width="35" class="img">
+        <hr width="750">
+        <p style="text-align: center; color: aliceblue; font-family: Arial, Helvetica, sans-serif;">Copyright © Company 2018 - 2019</p>
+    </div>
+</body>
+</html>
